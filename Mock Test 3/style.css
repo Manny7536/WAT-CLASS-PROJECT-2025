@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Henny+Penny&family=Mouse+Memoirs&display=swap');
+
+body{
+    background-color: #ece876;
+}
+.header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.header h1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Mouse Memoirs", sans-serif;
+}
+
+.slogan p{
+    font-family: "Henny Penny", cursive;
+}
+.slogan{
+    margin-top: -50px;
+    text-align: right;
+}
+
+.nav-bar {
+      background-color: rgb(0, 0, 0);
+      opacity: 0.25;  
+      text-align: center;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    display: inline-flex;
+    gap:100px;
+}
+.nav-bar ul li {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Fredoka", sans-serif;;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.joke-box{
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    height:50%;
+    margin-top: 20%;
+}
+
+.joke-box img{
+    width: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.joke-box h3{
+    text-align: center;
+    font-family: "Henny Penny", cursive;
+}
+.joke-box p{
+    font-family: "Henny Penny", cursive;
+}
+
+.content-grid{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+section h2{
+    font-family: "Mouse Memoirs", sans-serif;
+    padding:0;
+    margin:0;
+}
+
+.content-card{
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+}
+.content-card img{
+    width: 25%;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.content-card h2{
+    text-align: center;
+}   
+
+.content-card p{
+    text-align: center;
+    font-family: "Fredoka", sans-serif;;
+}
+
+.content-card ul{
+    text-align: center;
+    justify-content: center;
+}
+.content-card ul li{
+    text-align: left;
+    font-family: "Fredoka", sans-serif;
+    
+}
+.footer{
+    height: 10vh;;
+}
+
+.footer-text{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+.footer-text a{
+    color: white;
+    font-family: "Fredoka", sans-serif;
+}
