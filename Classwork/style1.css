@@ -1,0 +1,6 @@
+.navbar{
+    display:flex;
+    position: relative;
+    justify-content: left;
+    background-color: black;
+}

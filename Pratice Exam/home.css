@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(232, 232, 232);
+}
+
+/* <--- nav ---> */
+
+nav {
+    background-color: rgb(6, 65, 6);
+    text-align: center;
+    padding: 15px 20px;
+}
+nav h1{
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 0;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-flex;
+    margin: 0 20px;
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* <--- main ---> */
+
+.body-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+    padding: 40px;
+}
+.info{
+    background-color: rgb(255, 253, 253);
+    width: 40%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+    color: rgb(6, 65, 6);
+}
+hr{
+    border: 1px solid rgb(6, 65, 6);
+}
+
+/* <---  footer ---> */
+
+footer{
+    background-color: rgb(6, 65, 6);
+    text-align: center;
+    padding: 30px 20px;
+    color: #ffffff;
+}
+footer h2{
+    color: #ffffff;
+}
+button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(154, 177, 149);
+    color: #ffffff;
+}
+input[type="email"]{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
