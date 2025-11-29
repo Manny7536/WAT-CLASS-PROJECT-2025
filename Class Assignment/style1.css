@@ -1,0 +1,67 @@
+.navbar{
+    background-color: rgb(37, 37, 37);
+    display:block;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 15px;
+    gap: 30px;
+}
+
+.navbar .contact {
+    margin-left: auto;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    transition: 0.3s;
+    display: block;
+}
+
+.navbar ul li a:hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+
+}
+
+.main{
+    padding:10px;
+}
+
+.description{
+    display: flex;
+    align-items: end;
+    gap: 15px;
+}
+
+hr{
+    margin-top: 0;
+    height: 1px;
+    border: none;
+    background-color: bisque;
+
+}
+
+h2{
+    color: rgb(80, 80, 78);
+}
+
+.content{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.content-card{
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
